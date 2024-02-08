@@ -1,14 +1,10 @@
-header > nav {
-  display: flex;
-  flex-grow: 1;
-  justify-content: end;
+* {
+  box-sizing: border-box;
 }
 
 h1 {
   display: flex;
   justify-content: start;
-  margin-top: 0;
-  margin-left: 30px;
 }
 
 .nav-list {
@@ -16,14 +12,14 @@ h1 {
   width: 50%;
   justify-content: space-evenly;
   list-style: none;
-  padding: 10px;
+  flex-grow: 1;
+  margin-left: 45%;
 }
 
 a {
   text-decoration: none;
   color: black;
   font-size: 20px;
-  margin-top: 0;
 }
 
 button {
@@ -39,4 +35,14 @@ button {
   header > nav {
     display: none;
   }
+}
+
+article {
+  font-weight: bold;
+  font-family: arial;
+  width: 25%;
+  font-size: 40px;
+  display: flex;
+  margin-left: 70px;
+  padding-top: 50px;
 }
