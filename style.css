@@ -79,10 +79,9 @@ button {
   }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 760px) {
   section > .main-image {
-    width: 300px;
-    height: 300px;
+    display: none;
   }
 }
 
