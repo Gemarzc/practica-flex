@@ -31,7 +31,7 @@ button {
   border: none;
   color: white;
   background-color: rgba(112, 142, 241, 0.884);
-  margin-left: 98px;
+  margin-left: 7pc;
 }
 
 .menu {
@@ -64,27 +64,30 @@ button {
 article {
   font-weight: bold;
   font-family: arial;
-  width: 38%;
+  width: 50%;
   font-size: 55px;
-  margin-right: 14pc;
+  margin-left: 6pc;
+  padding-bottom: 15px;
 }
 
 .container {
   display: flex;
-  justify-content: right;
+  justify-content: left;
 }
 
 .main-image {
   width: 410px;
   height: 410px;
-  margin-right: 6pc;
+  display: flex;
+  justify-content: right;
 }
 
 aside {
   font-family: arial;
-  width: 36%;
+  width: 51%;
   font-size: 18px;
   margin-left: 6pc;
+  padding-bottom: 25px;
 }
 
 p {
