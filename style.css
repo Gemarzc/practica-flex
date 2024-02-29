@@ -57,9 +57,8 @@ button {
     width: 65%;
   }
   div > aside {
-    margin-left: 6pc;
-    width: 59%;
-    display: flex;
+    margin-left: 5.5pc;
+    width: 55%;
     font-size: 17px;
   }
   button {
