@@ -38,7 +38,7 @@ button {
   display: none;
   width: 80px;
   height: 80px;
-  margin-left: 7pc;
+  margin-left: 9pc;
 }
 
 @media (max-width: 710px) {
@@ -52,12 +52,19 @@ button {
 
 @media (max-width: 710px) {
   div > article {
-    font-size: 35px;
+    font-size: 33px;
+    margin-left: 7pc;
+  }
+  div > aside {
+    margin-left: 7pc;
+    width: 53%;
+    font-size: 17px;
   }
   button {
     width: 115px;
     height: 40px;
     font-size: 10px;
+    margin-left: 8pc;
   }
   footer > div {
     font-size: 15px;
@@ -69,18 +76,22 @@ button {
   div > .spo-logo {
     width: 18px;
     height: 18px;
+    margin-left: 10px;
   }
   div > .slack-logo {
     width: 18px;
     height: 18px;
+    margin-left: 12px;
   }
   div > .drop-logo {
     width: 18px;
     height: 18px;
+    margin-left: 19px;
   }
   div > .zoom-logo {
     width: 18px;
     height: 18px;
+    margin-left: 10px;
   }
 }
 
