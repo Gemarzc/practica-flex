@@ -52,23 +52,25 @@ button {
 
 @media (max-width: 710px) {
   div > article {
-    font-size: 33px;
-    margin-left: 7pc;
+    font-size: 28px;
+    margin-left: 5.5pc;
+    width: 65%;
   }
   div > aside {
-    margin-left: 7pc;
-    width: 53%;
+    margin-left: 6pc;
+    width: 59%;
+    display: flex;
     font-size: 17px;
   }
   button {
     width: 115px;
     height: 40px;
     font-size: 10px;
-    margin-left: 8pc;
+    margin-left: 8.5pc;
   }
   footer > div {
     font-size: 15px;
-    margin-left: 20px;
+    margin-left: 24px;
   }
 }
 
