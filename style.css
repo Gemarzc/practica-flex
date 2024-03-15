@@ -53,19 +53,19 @@ button {
 @media (max-width: 710px) {
   div > article {
     font-size: 28px;
-    margin-left: 5.5pc;
+    margin-left: 22%;
     width: 65%;
   }
   div > aside {
-    margin-left: 5.5pc;
-    width: 55%;
+    margin-left: 34%;
+    width: 35%;
     font-size: 17px;
   }
   button {
     width: 115px;
     height: 40px;
     font-size: 10px;
-    margin-left: 8pc;
+    margin-left: 33%;
   }
   footer > div {
     font-size: 15px;
@@ -77,22 +77,22 @@ button {
   div > .spo-logo {
     width: 18px;
     height: 18px;
-    margin-left: 10px;
+    margin-left: 28%;
   }
   div > .slack-logo {
     width: 18px;
     height: 18px;
-    margin-left: 12px;
+    margin-left: 22%;
   }
   div > .drop-logo {
     width: 18px;
     height: 18px;
-    margin-left: 19px;
+    margin-left: 30%;
   }
   div > .zoom-logo {
     width: 18px;
     height: 18px;
-    margin-left: 10px;
+    margin-left: 14%;
   }
 }
 
@@ -138,7 +138,8 @@ p {
   color: grey;
   display: flex;
   justify-content: center;
-  margin-top: 9pc;
+  margin-top: 8pc;
+  padding-bottom: 5pc;
 }
 
 .spo-logo {
@@ -168,14 +169,10 @@ p {
 footer {
   flex-direction: row;
   display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 30px;
-  margin-top: 5pc;
-}
-
-footer {
   font-family: 'Franklin Gothic Medium';
   font-size: 25px;
   list-style: none;
   position: sticky;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
 }
