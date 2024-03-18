@@ -151,7 +151,7 @@ p {
   color: grey;
   display: flex;
   justify-content: center;
-  margin-top: 8pc;
+  padding-top: 70px;
   padding-bottom: 5pc;
 }
 
