@@ -10,6 +10,7 @@ h1 {
   padding-left: 99px;
   padding-bottom: 5px;
   font-size: 25px;
+  font-family: 'Courier New';
 }
 
 .nav-list {
@@ -19,6 +20,7 @@ h1 {
   list-style: none;
   flex-grow: 1;
   margin-left: 48%;
+  font-family: 'Arial Narrow';
 }
 
 a {
@@ -52,13 +54,15 @@ button {
     margin-left: 9.5pc;
     cursor: pointer;
   }
+  h1 {
+    padding-left: 85px;
+  }
 }
 
 @media (max-width: 710px) {
   div > article {
     font-size: 28px;
-    margin-left: 22%;
-    width: 65%;
+    text-align: center;
   }
   div > aside {
     margin-left: 34%;
