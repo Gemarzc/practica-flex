@@ -31,11 +31,12 @@ a {
 
 button {
   border-radius: 10px;
+  border: none;
   padding: 15px 25px;
   cursor: pointer;
-  border: none;
   color: white;
   background-color: rgba(112, 142, 241, 0.884);
+  text-transform: uppercase;
   margin-left: 7pc;
 }
 
@@ -66,14 +67,13 @@ button {
   }
   div > aside {
     text-align: center;
-
     font-size: 17px;
   }
   button {
     width: 115px;
     height: 40px;
     font-size: 10px;
-    margin-left: 33%;
+    margin-left: 36%;
   }
   footer > div {
     font-size: 15px;
@@ -81,26 +81,31 @@ button {
   }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 700px) {
   div > .spo-logo {
-    width: 18px;
     height: 18px;
-    margin-left: 28%;
+    width: 18px;
   }
   div > .slack-logo {
-    width: 18px;
     height: 18px;
-    margin-left: 22%;
+    width: 18px;
   }
   div > .drop-logo {
-    width: 18px;
     height: 18px;
-    margin-left: 30%;
+    width: 18px;
+    margin-left: 16.5px;
   }
   div > .zoom-logo {
-    width: 18px;
     height: 18px;
-    margin-left: 14%;
+    width: 18px;
+  }
+  footer > div {
+    width: 18%;
+  }
+  footer > div > .spo-logo,
+  .zoom-logo,
+  .slack-logo {
+    margin-left: 12px;
   }
 }
 
