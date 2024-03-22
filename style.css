@@ -93,7 +93,7 @@ button {
   div > .drop-logo {
     height: 18px;
     width: 18px;
-    margin-left: 16.5px;
+    margin-left: 27%;
   }
   div > .zoom-logo {
     height: 18px;
@@ -101,11 +101,6 @@ button {
   }
   footer > div {
     width: 18%;
-  }
-  footer > div > .spo-logo,
-  .zoom-logo,
-  .slack-logo {
-    margin-left: 12px;
   }
 }
 
@@ -187,5 +182,5 @@ footer {
   list-style: none;
   position: sticky;
   justify-content: space-evenly;
-  padding-bottom: 2%;
+  padding-bottom: 1.5%;
 }
