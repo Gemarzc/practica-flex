@@ -64,6 +64,14 @@ a {
   align-items: flex-start;
 }
 
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 20px;
+}
+
 button {
   border-radius: 10px;
   border: none;
@@ -94,4 +102,8 @@ h3 {
   justify-content: space-around;
   max-width: 680px;
   min-width: 340px;
+}
+
+#companies > div > img {
+  width: 16%;
 }
