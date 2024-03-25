@@ -113,3 +113,18 @@ h3 {
     padding: 30px;
   }
 }
+
+@media screen and (max-width: 1040px) {
+  #hero {
+    padding: 30px;
+    padding-top: 150px;
+  }
+  #hero > div {
+    width: 300px;
+    align-items: center;
+  }
+  #hero > div > h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
