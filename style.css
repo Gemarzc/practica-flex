@@ -107,3 +107,9 @@ h3 {
 #companies > div > img {
   width: 16%;
 }
+
+@media screen and (max-width: 700px) {
+  #main-header {
+    padding: 30px;
+  }
+}
