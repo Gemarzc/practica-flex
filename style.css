@@ -112,6 +112,14 @@ h3 {
   #main-header {
     padding: 30px;
   }
+  #main-header > nav {
+    display: none;
+  }
+  .menu {
+    display: block;
+    cursor: pointer;
+    width: 19%;
+  }
 }
 
 @media screen and (max-width: 1040px) {
@@ -125,6 +133,10 @@ h3 {
   }
   #hero > div > h2 {
     font-size: 30px;
+    text-align: center;
+  }
+  #hero > div > p {
+    font-size: 18px;
     text-align: center;
   }
 }
