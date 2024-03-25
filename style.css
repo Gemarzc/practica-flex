@@ -13,27 +13,54 @@
   padding: 30px 60px;
 }
 
-h1 {
+.flex-container {
   display: flex;
-  padding-top: 20px;
-  padding-left: 99px;
-  padding-bottom: 5px;
-  font-size: 25px;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 23px;
+  font-weight: bold;
   font-family: 'Courier New';
 }
 
-.nav-list {
+nav {
+  display: block;
+}
+
+.flex-container {
   display: flex;
-  width: 50%;
-  justify-content: space-evenly;
-  list-style: none;
-  font-family: 'Arial Narrow';
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+li {
+  cursor: pointer;
 }
 
 a {
   text-decoration: none;
   color: black;
   font-size: 20px;
+}
+
+.menu {
+  display: none;
+}
+
+#hero {
+  padding-top: 150px;
+  gap: 50px;
+}
+
+#hero > div {
+  flex-direction: column;
+  gap: 30px;
+  width: 400px;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 button {
@@ -46,82 +73,6 @@ button {
   text-transform: uppercase;
 }
 
-.menu {
-  display: none;
-  width: 80px;
-  height: 80px;
-}
-
-@media (max-width: 700px) {
-  .nav-list {
-    display: none;
-  }
-  .menu {
-    display: block;
-    cursor: pointer;
-  }
-  h1 {
-    text-align: center;
-  }
-}
-
-@media (max-width: 710px) {
-  div > article {
-    font-size: 28px;
-    text-align: center;
-  }
-  div > aside {
-    text-align: center;
-    font-size: 17px;
-  }
-  button {
-    width: 115px;
-    height: 40px;
-    font-size: 10px;
-    display: flex;
-    text-align: center;
-  }
-  footer > div {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 700px) {
-  div > .spo-logo {
-    height: 18px;
-    width: 18px;
-  }
-  div > .slack-logo {
-    height: 18px;
-    width: 18px;
-  }
-  div > .drop-logo {
-    height: 18px;
-    width: 18px;
-  }
-  div > .zoom-logo {
-    height: 18px;
-    width: 18px;
-  }
-  footer > div {
-    width: 18%;
-  }
-}
-
-@media (max-width: 760px) {
-  section > .main-image {
-    display: none;
-  }
-}
-
-article {
-  font-weight: bold;
-  font-family: arial;
-  width: 55%;
-  font-size: 55px;
-  padding-bottom: 15px;
-}
-
 .container {
   display: flex;
   justify-content: left;
@@ -132,24 +83,6 @@ article {
   height: 410px;
   display: flex;
   justify-content: right;
-}
-
-aside {
-  font-family: arial;
-  width: 51%;
-  font-size: 18px;
-  margin-left: 6pc;
-  padding-bottom: 25px;
-}
-
-p {
-  font-size: 15px;
-  font-family: arial;
-  color: grey;
-  display: flex;
-  justify-content: center;
-  padding-top: 70px;
-  padding-bottom: 5pc;
 }
 
 .spo-logo {
